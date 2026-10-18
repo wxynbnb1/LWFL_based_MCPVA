@@ -1,0 +1,8 @@
+# Direct dependencies used by the 12 core Python scripts.
+# Versions are intentionally unpinned: the original environment is not recorded.
+torch
+numpy
+pandas
+scikit-learn
+matplotlib
+openpyxl
