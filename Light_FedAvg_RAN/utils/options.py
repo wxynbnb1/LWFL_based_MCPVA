@@ -25,7 +25,7 @@ def args_parser():
     # ===================================================================
     # 2. 数据集/环境 参数
     # ===================================================================
-    parser.add_argument('--excel_path', type=str, default=r"D:\AWXY\研究生\小论文\数据图表\数据1+3.xlsx", help="Excel 文件路径 (Placeholder for data path)")
+    parser.add_argument('--excel_path', type=str, default=r"D:\.xlsx", help="Excel 文件路径 (Placeholder for data path)")
     parser.add_argument('--label_column', type=str, default="类型", help="标签列名 (Label column name)")
     # parser.add_argument('--feature_cols', type=list, default=["TV", "COV", "GI", "RVDI"],help="特征列名 (Feature column names)")
     parser.add_argument('--feature_cols', nargs='+', default=["TV", "COV", "GI", "RVDI"], help="...")
